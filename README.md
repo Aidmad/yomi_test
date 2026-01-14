@@ -1,7 +1,7 @@
 <h1 font-weight: bold;>よみ Test (Yomi Test): Japanese reading learning app</h1>
 <p></p>Practice learning to read Japanese characters and memorize them. Includes chracters from hiragana - the most basic beginner level japanese characters (kana), dakuon and handakuon - additives of 2 dots 
 and small circle on top of kanas and yoon list which is combination of kanas with "ya", "yo" and "yu" sounds.</p>
-![App Screenshot](images/yomi_banner.png)
+![App Banner](images/yomi_banner.png)
 <h2>Plans for the future updates</h2>
 <p>This app is meant to be constantly updated adding new lessons. Such as:</p>
 <ol>

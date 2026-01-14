@@ -29,3 +29,13 @@ The app will be continuously improved with new lessons and features:
 6. Offline progress storage: Progress is saved locally via SharedPreferences, allowing learning without an internet connection.
 7. Immediate visual feedback: Correct and incorrect answers are highlighted during tests to reinforce learning.
 8. Result percentage: Shows overall testing results and indicates which answers were incorrect.
+
+## Screenshots
+
+<p float="left">
+  <img src="images/main.jpg" width="150" />
+  <img src="images/test.jpg" width="150" />
+  <img src="images/correct.jpg" width="150" />
+  <img src="images/wrong.jpg" width="150" />
+  <img src="images/result.jpg" width="150" />
+</p>

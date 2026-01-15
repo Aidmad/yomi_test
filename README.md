@@ -19,9 +19,9 @@ The app will be continuously improved with new lessons and features:
 4. Add completely new lessons like vocabulary (requires new testing method)
 5. Implement new testing for sentence formation and grammar
 
-## App Features
+## **App Features**
 
-1. Clean, intuitive interface: Lesson lists are easy to navigate for seamless learning.
+1. **Clean, intuitive interface:** Lesson lists are easy to navigate for seamless learning.
 2. Guided tutorial: A short, beginner-friendly tutorial launches on first use to help users get started.
 3. Persistent progress tracking: The app remembers user activity and progress across sessions.
 4. Comprehensive lesson explanations: Covers Hiragana, Dakuon, Handakuon, and Yoon with clear, concise guidance.
@@ -29,6 +29,7 @@ The app will be continuously improved with new lessons and features:
 6. Offline progress storage: Progress is saved locally via SharedPreferences, allowing learning without an internet connection.
 7. Immediate visual feedback: Correct and incorrect answers are highlighted during tests to reinforce learning.
 8. Result percentage: Shows overall testing results and indicates which answers were incorrect.
+9. Dynamic localization: The app detects the device’s system language and displays content accordingly, providing a seamless experience for users in different languages.
 
 ## Screenshots
 
@@ -39,3 +40,7 @@ The app will be continuously improved with new lessons and features:
   <img src="images/wrong.jpg" width="150" />
   <img src="images/result.jpg" width="150" />
 </p>
+
+## Planning
+
+The app is designed to be intuitive and beginner-friendly, avoiding the complexity of other language learning apps. Unlike apps that overwhelm learners with Katakana and Kanji lessons from the start, よみ Test focuses on Hiragana first. To manage the learning curve, access to subsequent lessons is locked until users complete the entire Hiragana list, achieving 100% progress before moving on to the next set of characters.

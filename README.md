@@ -62,3 +62,14 @@ The round counter increases only after the correct or incorrect answer feedback 
 Users can exit the test at any time by pressing the back button in the top-left corner. All previously answered progress is saved as long as the user enters Romaji letters and presses the **“Check”** button.
 
 By pressing the **“Continue”** button on the results page, the user is returned to the main page, where the Hiragana lesson list is displayed.
+
+## **Tech Stack**
+
+- Dart (SDK ^3.7.2)
+- Flutter
+- SharedPreferences (local persistent storage)
+- flutter_localizations & intl (localization support)
+- Material Design & Cupertino Icons
+- tutorial_coach_mark (guided onboarding)
+- Flutter Test & Flutter Lints
+

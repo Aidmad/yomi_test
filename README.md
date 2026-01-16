@@ -41,7 +41,7 @@ The app will be continuously improved with new lessons and features:
   <img src="images/result.jpg" width="150" />
 </p>
 
-## **Goals and Solutions**
+## **App workflow**
 
 The app is designed to be intuitive and beginner-friendly, avoiding the complexity of other language learning apps. Unlike apps that overwhelm learners with Katakana and Kanji lessons from the start, **よみ Test** focuses on Hiragana first. To manage the learning curve, access to subsequent lessons is locked until users complete the entire Hiragana list, achieving **100%** progress before moving on to the next set of characters.
 
@@ -54,3 +54,11 @@ The test page was designed to be simple, focusing on typing the correct answer a
 The input buttons include only Romaji (Japanese character pronunciation) letters, allowing users to tap characters to type their answer before pressing the **“Check”** button.
 
 To determine whether the answer is correct, the app globally stores the input value and compares it with the corresponding kana data list. Based on whether a match is detected, a signal is sent to trigger visual feedback by displaying a green card for correct answers or a red card for incorrect ones.
+
+All test results are saved globally and used to calculate an overall percentage score, which is displayed in a circular progress bar. Below this, the mistakes made by the user are listed; this section remains hidden if all answers are correct. To complete the full test, the user must finish ten rounds, with each round incremented after completion.
+
+The round counter increases only after the correct or incorrect answer feedback has finished displaying. To ensure this, a short timer is implemented, allowing the feedback to remain visible for a few seconds before progressing. Once the timer expires, the next kana is displayed unless the current round is the tenth. After completing ten rounds, the app automatically navigates to the results page.
+
+Users can exit the test at any time by pressing the back button in the top-left corner. All previously answered progress is saved as long as the user enters Romaji letters and presses the **“Check”** button.
+
+By pressing the “Continue” button on the results page, the user is returned to the main page, where the Hiragana lesson list is displayed.

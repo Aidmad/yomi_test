@@ -41,7 +41,7 @@ The app will be continuously improved with new lessons and features:
   <img src="images/result.jpg" width="150" />
 </p>
 
-## **App workflow**
+## **App Workflow & Logic**
 
 The app is designed to be intuitive and beginner-friendly, avoiding the complexity of other language learning apps. Unlike apps that overwhelm learners with Katakana and Kanji lessons from the start, **よみ Test** focuses on Hiragana first. To manage the learning curve, access to subsequent lessons is locked until users complete the entire Hiragana list, achieving **100%** progress before moving on to the next set of characters.
 

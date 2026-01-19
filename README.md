@@ -73,3 +73,8 @@ By pressing the **“Continue”** button on the results page, the user is retur
 - tutorial_coach_mark (guided onboarding)
 - Flutter Test & Flutter Lints
 
+## **App Download**
+
+You can follow this link to Google Play to download the app:  
+[Download よみ Test: Learn Japanese app](https://play.google.com/store/apps/details?id=com.flutter_jobs.jp_reading)
+
